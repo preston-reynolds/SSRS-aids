@@ -1,0 +1,20 @@
+First day of last month:
+=dateadd("m",-1,dateserial(year(Today),month(Today),1)) 
+
+First day of this month:
+=dateadd("m",0,dateserial(year(Today),month(Today),1)) 
+
+First day of next month:
+=dateadd("m",1,dateserial(year(Today),month(Today),1)) 
+
+
+
+
+Last day of last month:
+=dateadd("m",0,dateserial(year(Today),month(Today),0))
+
+Last day of this month:
+=dateadd("m",1,dateserial(year(Today),month(Today),0))
+
+Last day of next month:
+=dateadd("m",2,dateserial(year(Today),month(Today),0))
